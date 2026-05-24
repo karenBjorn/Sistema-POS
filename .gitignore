@@ -1,0 +1,59 @@
+### Windows
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+### macOS (por si alguien del equipo usa Mac)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Cursor / VS Code (config local del editor)
+.cursor/
+.vscode/
+*.code-workspace
+
+### Git anidado (si copias otro repo dentro del proyecto)
+.git/
+**/.git/
+
+### Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+### Entorno y secretos (nunca subir)
+.env
+.env.*
+!.env.example
+
+### Build y cachés (frontend Vite / herramientas)
+dist/
+build/
+.vite/
+.cache/
+*.local
+
+### Logs y temporales
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+*.swp
+*~
+
+### Cobertura y pruebas (si las agregas después)
+coverage/
+.nyc_output/
+
+### Sistema / IDE varios
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
