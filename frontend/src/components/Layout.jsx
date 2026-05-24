@@ -35,6 +35,18 @@ export default function Layout({ children }) {
               Tienda
             </NavLink>
             <NavLink
+              to="/dashboard"
+              className={({ isActive }) =>
+                `px-4 py-2 rounded-lg text-sm font-medium transition-all ${
+                  isActive
+                    ? 'bg-accent/15 text-accent border border-accent/30'
+                    : 'text-slate-400 hover:text-white hover:bg-surface-raised'
+                }`
+              }
+            >
+              Dashboard
+            </NavLink>
+            <NavLink
               to="/historial"
               className={({ isActive }) =>
                 `px-4 py-2 rounded-lg text-sm font-medium transition-all ${
